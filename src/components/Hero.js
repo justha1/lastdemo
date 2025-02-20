@@ -13,7 +13,7 @@ const Hero = () => {
           </div>
           <h1 className='text-[99px] leading-[1.1] font-light mb-4 uppercase bg-gradient-to-r  from-mints to-white  bg-clip-text text-transparent'>Vietnam Style<br />
             <span className=' text-[180px] font-semibold'>
-              2023
+              2025
             </span>
           </h1>
           <div className='flex px-auto'>

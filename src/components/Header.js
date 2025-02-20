@@ -40,7 +40,7 @@ const Header = () => {
   </Link>
   <div className='cursor-pointer flex relative ml-auto max-w-[200px] justify-center items-center'>
     <BsFillTelephoneFill className='text-1xl flex relative text-black  mr-4 items-center justify-center' />
-    <p className='mr-4 bg-gradient-to-r  from-black to-mints  bg-clip-text text-transparent'>0394630804</p>
+    <p className='mr-4 bg-gradient-to-r  from-black to-mints  bg-clip-text text-transparent'>0702XXXXXX</p>
     <div className='w-[1px] h-[30px] bg-mint mr-4'>
 
     </div>
