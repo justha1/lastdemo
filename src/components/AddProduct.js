@@ -42,16 +42,16 @@ const AddProduct = () => {
   const validateForm = (products) => {
     const newErrors = {};
     if (!products.title) {
-      newErrors.title = 'Please enter a name product';
+      newErrors.title = 'Please enter name of your product';
     }
     if (!products.price) {
-      newErrors.price = 'Please enter price product';
+      newErrors.price = 'Please enter price of your product';
     }
     if (!products.image) {
       newErrors.image = 'Url image';
     }
     if (!products.description) {
-      newErrors.description = 'Please enter description for product';
+      newErrors.description = 'Please enter description for your product';
     }
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;

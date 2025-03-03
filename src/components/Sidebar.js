@@ -17,7 +17,7 @@ const Sidebar = () => {
   return <div className={`${isOpen ? 'right-0' : '-right-full'} w-full z-20 bg-white fixed top-0 h-full shadow-2xl md:w-[35vw] xl:max-w-[30vw] transition-all duration-300
   z-20px px-4 lf:px-[35vw]`}>
     <div className='flex justify-between py-6 border-b'>
-      <div className='uppercase text-sm font-semibold bg-gradient-to-r from-mint to-blue-400 bg-clip-text text-transparent'>My bag ({itemAmount})</div>
+      <div className='uppercase text-sm font-semibold bg-gradient-to-r from-mint to-blue-400 bg-clip-text text-transparent'>My Bag ({itemAmount})</div>
       <div onClick={handleClose} className='cursor-pointer w-8 h-8 flex justify-center items-center'>
         <IoMdArrowForward className='text-2xl text-mint' />
       </div>
@@ -39,7 +39,7 @@ const Sidebar = () => {
       </div>
       <div className='flex flex-grow'></div>
       <Link to='/Checkout' onClick={handleClose} className='bg-mint flex p-4 justify-center items-center text-primary w-full font-medium rounded-md'>
-        <span className='bg-gradient-to-l from-white to-white bg-clip-text text-transparent'>CheckOut</span>
+        <span className='bg-gradient-to-l from-white to-white bg-clip-text text-transparent'>Check Out</span>
       </Link>
     </div>
   </div>
